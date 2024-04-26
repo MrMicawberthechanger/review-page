@@ -1,0 +1,16 @@
+/* top part  */
+.reviewers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.reviewer img {
+    width: 56px;
+    height: 56px;
+
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
