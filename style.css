@@ -1,4 +1,5 @@
 /* top part  */
+
 .reviewers {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -13,6 +14,20 @@
 .reviewer {
     display: flex;
     align-items: center;
+}
 
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.review {
+    display: flex;
+    align-items: center;
+}
+
+.review img {
+    width: 177px;
+    height: 117px;
 
 }
