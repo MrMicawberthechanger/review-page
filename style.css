@@ -88,6 +88,29 @@ body {
 
 }
 
-/* .review-tit {
-    margin-left: 16px;
-} */
+/* second part */
+
+.second-part {
+    display: flex;
+    justify-content: center;
+}
+
+.sec-title-1 {
+    color: #562EFF;
+}
+
+.tours {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.tour {
+    padding-right: 62px;
+}
+
+.sec-img {
+    width: 224px;
+    height: 104px;
+}
