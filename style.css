@@ -31,10 +31,6 @@ body {
 .top-reviewers {
 
     border-bottom: 2px solid rgb(241, 241, 241);
-
-
-
-
 }
 
 .reviewers {
@@ -60,14 +56,25 @@ body {
 }
 
 /* top review part */
+.top-title-2 {
+    color: #562EFF;
+}
+
 .reviews {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
 }
 
 .review {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.rev-tex {
+    padding: 16px;
 }
 
 .review img {
@@ -75,3 +82,12 @@ body {
     height: 117px;
 
 }
+
+.review-for {
+    color: #562EFF;
+
+}
+
+/* .review-tit {
+    margin-left: 16px;
+} */
