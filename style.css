@@ -6,12 +6,32 @@
     background-color: #562EFF;
 }
 
+/* font awsm icon */
 .fa-solid {
     color: white;
     width: 40.52px;
     height: 51px;
 }
 
+.fa-star {
+    color: #FFC014;
+    width: 74.76px;
+    height: 11.81px;
+}
+
+.fa-star-half-stroke {
+    color: #FFC014;
+    width: 74.76px;
+    height: 11.81px;
+}
+
+.fa-regular {
+    color: #FFC014;
+    width: 74.76px;
+    height: 11.81px;
+}
+
+/* nav bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,7 +42,7 @@
 
 .nav-left {
     display: flex;
-
+    justify-content: center;
     align-items: center;
 }
 
