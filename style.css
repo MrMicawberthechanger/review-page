@@ -195,10 +195,16 @@ media queryসদসদ/* ////////////////
 mobile devic
 /////////////// */
 @media only screen and (max-width:688px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
 
     .top {
         width: 100%;
     }
+
 
     .reviewers {
         grid-template-columns: repeat(1, 1fr);
@@ -207,20 +213,23 @@ mobile devic
     .reviewer {
         justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
 
     .reviews {
         grid-template-columns: repeat(1, 1fr);
+
     }
 
     .second-part {
         width: 100%;
         margin: 0%;
-        padding: 0%;
+        padding: 2%;
     }
 
     .tours {
         grid-template-columns: repeat(1, 1fr);
+
     }
 
     .tour {
