@@ -161,8 +161,8 @@ body {
     align-items: center;
     width: 870px;
     border-radius: 2%;
-    margin: 20px;
-    padding: 32px;
+    /* margin: 20px;
+    padding: 32px; */
 
 }
 
@@ -178,8 +178,91 @@ body {
 
 }
 
+tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sec-part-img {
     width: 224px;
     height: 104px;
     border-radius: 4px;
+}
+
+/* .....................
+media queryসদসদ/* ////////////////
+mobile devic
+/////////////// */
+@media only screen and (max-width:688px) {
+
+    .top {
+        width: 100%;
+    }
+
+    .reviewers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reviewer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .reviews {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second-part {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .tours {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tour {
+        justify-content: center;
+    }
+
+}
+
+/* ..................
+    tablet device
+    ................ */
+@media only screen and (min-width:689) (max-width:992px) {
+
+    .top {
+        width: 100%;
+    }
+
+    .reviewers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reviewer {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .reviews {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .second-part {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .tours {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tour {
+        justify-content: center;
+    }
+
 }
