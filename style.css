@@ -155,15 +155,11 @@ body {
 }
 
 .second-part {
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 870px;
+    background-color: #FFFFFF;
+    padding: 2%;
     border-radius: 2%;
-    /* margin: 20px;
-    padding: 32px; */
-
+    margin-top: 6px;
 }
 
 .tour-title {
@@ -173,13 +169,13 @@ body {
 .tours {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+
     justify-content: center;
 
 }
 
-tour {
-    display: flex;
+.tour {
+
     justify-content: center;
     align-items: center;
 }
