@@ -241,7 +241,14 @@ mobile devic
 /* ..................
     tablet device
     ................ */
-@media only screen and (min-width:689) (max-width:992px) {
+
+@media only screen and (min-width:689px) and (max-width:1024px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
 
     .top {
         width: 100%;
@@ -249,6 +256,7 @@ mobile devic
 
     .reviewers {
         grid-template-columns: repeat(2, 1fr);
+
     }
 
     .reviewer {
@@ -260,10 +268,15 @@ mobile devic
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .review {
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .second-part {
         width: 100%;
-        margin: 0%;
-        padding: 0%;
+        margin-top: 2%;
+
     }
 
     .tours {
